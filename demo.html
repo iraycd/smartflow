@@ -1,0 +1,27 @@
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="smartflow.min.js"></script>
+
+<h3>What does SmartFlow.JS do?</h3>
+<p>Ideally, the most legible typography contains <a href="http://webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2/" target="_blank">between 45 and 75 characters per line</a>. This is difficult to accomplish for <em>all</em> screen widths with only CSS media-queries. SmartFlow.JS eases this difficulty by changing the font-size <del>and subsequently the line-height</del> based on a specific element's width. This allows for a perfect character count per line at <em>any</em> screen width.</p>
+<p>Additional options, <a href="#options">reviewed below</a>, allow you to configure SmartFlow.JS to fit your needs. These options include element size thresholds, font-size thresholds and ratios. The element size thresholds will stop SmartFlow.JS from performing its magic once the element reaches beyond specific pixel dimensions. The font-size thresholds will stop SmartFlow.JS from resizing the text beyond certain font-sizes. Lastly, you have full control over the base font-size, so that you can set your typography perfectly.</p>
+<p>SmartFlow.JS is extremely easy to use. Visit the <a href="#getting-started">getting started</a> section, follow the four easy steps and you will be on well on your way to performing magic.</p>
+
+
+<script type="text/javascript">
+
+$('body').smartflow({
+ minimum   : 100,
+ maximum   : 1200,
+ minFont   : 6,
+ maxFont   : 40,
+ fontRatio : 30,
+ lineRatio : 1.45
+}); 
+
+
+$('h1').smartflow({
+ minFont   : 12,
+ maxFont   : 60,
+ fontRatio : 20
+}); 
+</script>

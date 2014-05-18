@@ -1,0 +1,19 @@
+{
+  "name": "smartflow",
+  "version": "1.0.0",
+  "description": "Smarflow is a reponsive font-resize jQuery plugin",
+  "author": "Ray Ch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iraycd/smartflow.git"
+  },
+  "main": "lib",
+  "homepage": "http://iraycd.github.io/smartflow",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-rigger": "*",
+    "gulp-uglifyjs": "*",
+    "gulp-header": "*"
+  }
+}

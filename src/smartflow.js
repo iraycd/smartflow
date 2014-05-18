@@ -1,0 +1,2 @@
+//= smartresize.js
+//= flowtype.js
